@@ -16,6 +16,7 @@
 		8253240A1EC9596700EDB892 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825324091EC9596700EDB892 /* ConversionViewController.swift */; };
 		8253240D1EC9E68A00EDB892 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8253240C1EC9E68A00EDB892 /* MapKit.framework */; };
 		8253240F1EC9EF0300EDB892 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8253240E1EC9EF0300EDB892 /* MapViewController.swift */; };
+		82A79B241ECA09E800333504 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82A79B261ECA09E800333504 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,11 @@
 		825324091EC9596700EDB892 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversionViewController.swift; path = ../ConversionViewController.swift; sourceTree = "<group>"; };
 		8253240C1EC9E68A00EDB892 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8253240E1EC9EF0300EDB892 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		82A79B251ECA09E800333504 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		82A79B271ECA09F200333504 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		82A79B281ECA09F900333504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		82A9F4931ECA064400CC16C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		82A9F4941ECA06FA00CC16C6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,7 @@
 				825323DB1EC7B52B00EDB892 /* AppDelegate.swift */,
 				825323DF1EC7B52B00EDB892 /* Main.storyboard */,
 				825323E21EC7B52B00EDB892 /* Assets.xcassets */,
+				82A79B261ECA09E800333504 /* Localizable.strings */,
 				825323E41EC7B52B00EDB892 /* LaunchScreen.storyboard */,
 				825323E71EC7B52B00EDB892 /* Info.plist */,
 			);
@@ -229,6 +236,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 825323CF1EC7B52B00EDB892;
 			productRefGroup = 825323D91EC7B52B00EDB892 /* Products */;
@@ -248,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				825323E61EC7B52B00EDB892 /* LaunchScreen.storyboard in Resources */,
+				82A79B241ECA09E800333504 /* Localizable.strings in Resources */,
 				825323E31EC7B52B00EDB892 /* Assets.xcassets in Resources */,
 				825323E11EC7B52B00EDB892 /* Main.storyboard in Resources */,
 			);
@@ -316,6 +325,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				825323E01EC7B52B00EDB892 /* Base */,
+				82A9F4931ECA064400CC16C6 /* en */,
+				82A9F4941ECA06FA00CC16C6 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -328,6 +339,16 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		82A79B261ECA09E800333504 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A79B251ECA09E800333504 /* en */,
+				82A79B271ECA09F200333504 /* es */,
+				82A79B281ECA09F900333504 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -335,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -386,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -523,6 +546,7 @@
 				825324021EC7B52C00EDB892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		825324031EC7B52C00EDB892 /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +555,7 @@
 				825324051EC7B52C00EDB892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		825324061EC7B52C00EDB892 /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +564,7 @@
 				825324081EC7B52C00EDB892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
