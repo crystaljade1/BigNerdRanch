@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4615D5DA04C86974185A91099E1A03085C8C24F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E5CFCAB5136BDD0C51D6B4B7C4A568BD5001E4FD" : 9223372036854775807,
+    "4615D5DA04C86974185A91099E1A03085C8C24F0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "972837F0-0174-4A41-AF9F-AAFC6F7E360B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E5CFCAB5136BDD0C51D6B4B7C4A568BD5001E4FD" : "",
+    "4615D5DA04C86974185A91099E1A03085C8C24F0" : "Big%20Nerd%20Ranch%20Guide\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Buggy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Buggy\/Buggy.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/crystaljade1\/BigNerdRanch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4615D5DA04C86974185A91099E1A03085C8C24F0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/crystaljade1\/MastermindGameOverview.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E5CFCAB5136BDD0C51D6B4B7C4A568BD5001E4FD"
+    }
+  ]
+}

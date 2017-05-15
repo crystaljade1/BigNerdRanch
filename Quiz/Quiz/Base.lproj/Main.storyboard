@@ -21,48 +21,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sci-Sg-S1M">
-                                <rect key="frame" x="175" y="85" width="25" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lt4-yH-Ihx">
-                                <rect key="frame" x="138" y="126" width="98" height="30"/>
+                                <rect key="frame" x="138" y="128" width="98" height="30"/>
                                 <state key="normal" title="Next Question"/>
                                 <connections>
                                     <action selector="showNextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ei2-3o-UGL"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7w-qk-GJd">
-                                <rect key="frame" x="175" y="323" width="25" height="21"/>
+                                <rect key="frame" x="174.5" y="323" width="25" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hif-hZ-hBy">
-                                <rect key="frame" x="144" y="362" width="87" height="30"/>
+                                <rect key="frame" x="143.5" y="362" width="87" height="30"/>
                                 <state key="normal" title="Next Answer"/>
                                 <connections>
                                     <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZvK-lS-Q05"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLD-v6-346">
+                                <rect key="frame" x="166" y="87" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sci-Sg-S1M">
+                                <rect key="frame" x="175" y="58" width="25" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hif-hZ-hBy" firstAttribute="centerX" secondItem="Lt4-yH-Ihx" secondAttribute="centerX" id="30U-gM-ynb"/>
-                            <constraint firstItem="Sci-Sg-S1M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="65" id="5Pm-yK-cKt"/>
+                            <constraint firstItem="Sci-Sg-S1M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="38" id="5Pm-yK-cKt"/>
                             <constraint firstItem="hif-hZ-hBy" firstAttribute="top" secondItem="n7w-qk-GJd" secondAttribute="bottom" constant="18" id="AID-j5-AJs"/>
-                            <constraint firstItem="n7w-qk-GJd" firstAttribute="top" secondItem="Lt4-yH-Ihx" secondAttribute="bottom" constant="167" id="IIK-x6-PFW"/>
+                            <constraint firstItem="Lt4-yH-Ihx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I8r-Vp-s7Y"/>
+                            <constraint firstItem="n7w-qk-GJd" firstAttribute="top" secondItem="Lt4-yH-Ihx" secondAttribute="bottom" constant="165" id="IIK-x6-PFW"/>
                             <constraint firstItem="n7w-qk-GJd" firstAttribute="centerX" secondItem="Lt4-yH-Ihx" secondAttribute="centerX" id="MiH-hp-dqK"/>
-                            <constraint firstItem="Lt4-yH-Ihx" firstAttribute="top" secondItem="Sci-Sg-S1M" secondAttribute="bottom" constant="20" id="PEv-U4-zcp"/>
+                            <constraint firstItem="Lt4-yH-Ihx" firstAttribute="top" secondItem="Sci-Sg-S1M" secondAttribute="bottom" constant="49" id="PEv-U4-zcp"/>
+                            <constraint firstItem="yLD-v6-346" firstAttribute="top" secondItem="Sci-Sg-S1M" secondAttribute="top" constant="29" id="UXe-eO-0re"/>
                             <constraint firstItem="Sci-Sg-S1M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="coq-Nh-yyR"/>
-                            <constraint firstItem="Sci-Sg-S1M" firstAttribute="centerX" secondItem="Lt4-yH-Ihx" secondAttribute="centerX" id="m7z-uh-Kgs"/>
+                            <constraint firstItem="yLD-v6-346" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sTt-H6-TSK"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="n7w-qk-GJd" id="YNm-Ey-jMW"/>
-                        <outlet property="questionLabel" destination="Sci-Sg-S1M" id="hPn-v2-Kbw"/>
+                        <outlet property="currentQuestionLabel" destination="Sci-Sg-S1M" id="Csm-q7-LFn"/>
+                        <outlet property="currentQuestionLabelCenterXConstraint" destination="coq-Nh-yyR" id="r7g-LJ-8Se"/>
+                        <outlet property="nextQuestionLabel" destination="yLD-v6-346" id="Dwg-Pq-YTL"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="sTt-H6-TSK" id="A8g-Kw-qkc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
